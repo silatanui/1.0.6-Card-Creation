@@ -1,0 +1,50 @@
+/* Styling of the cards, here is the structure
+ <div className="card">
+            <img src="https://via.placeholder.com/150" alt="Placeholder" />
+            <h2>Card Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel condimentum ex, ut convallis velit. Donec sodales, justo in facilisis commodo, justo velit sodales velit, vitae consectetur lectus sapien nec lectus.</p>
+        </div>
+*/
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.card{
+    width: 20%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.card p{
+    margin: 0;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card button{
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+

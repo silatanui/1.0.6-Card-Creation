@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+*{
+  font-family: outfit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(45deg, #f9f9f9 12.5%, transparent 12.5%, transparent 50%, #f9f9f9 50%, #f9f9f9 62.5%, transparent 62.5%, transparent),
+                    linear-gradient(-45deg, #f9f9f9 12.5%, #ffffff 12.5%, #ffffff 50%, #f9f9f9 50%, #f9f9f9 62.5%, #ffffff 62.5%, #ffffff);
+  background-size: 10px 10px; /* Smaller pattern size for subtle texture */
+  margin: 0;
+  padding: 0;
+}
